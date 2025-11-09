@@ -3,7 +3,7 @@ import logging
 import csv
 import random
 from collections import defaultdict, deque
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -11,7 +11,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.enums import ParseMode
 
 # Загрузка переменных окружения
-load_dotenv()
+# load_dotenv()
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
